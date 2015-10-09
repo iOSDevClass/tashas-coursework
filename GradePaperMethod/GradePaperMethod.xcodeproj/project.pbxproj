@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D830B3601BBB2AB000D95AD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B35F1BBB2AB000D95AD7 /* main.m */; };
+		D830B3631BBB2AB000D95AD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B3621BBB2AB000D95AD7 /* AppDelegate.m */; };
+		D830B3661BBB2AB000D95AD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B3651BBB2AB000D95AD7 /* ViewController.m */; };
+		D830B3691BBB2AB000D95AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D830B3671BBB2AB000D95AD7 /* Main.storyboard */; };
+		D830B36B1BBB2AB000D95AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D830B36A1BBB2AB000D95AD7 /* Assets.xcassets */; };
+		D830B36E1BBB2AB100D95AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D830B36C1BBB2AB100D95AD7 /* LaunchScreen.storyboard */; };
+		D830B3791BBB2AB100D95AD7 /* GradePaperMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B3781BBB2AB100D95AD7 /* GradePaperMethodTests.m */; };
+		D830B3841BBB2AB100D95AD7 /* GradePaperMethodUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B3831BBB2AB100D95AD7 /* GradePaperMethodUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D830B3751BBB2AB100D95AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D830B3531BBB2AB000D95AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D830B35A1BBB2AB000D95AD7;
+			remoteInfo = GradePaperMethod;
+		};
+		D830B3801BBB2AB100D95AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D830B3531BBB2AB000D95AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D830B35A1BBB2AB000D95AD7;
+			remoteInfo = GradePaperMethod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D830B35B1BBB2AB000D95AD7 /* GradePaperMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GradePaperMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830B35F1BBB2AB000D95AD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D830B3611BBB2AB000D95AD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D830B3621BBB2AB000D95AD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D830B3641BBB2AB000D95AD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D830B3651BBB2AB000D95AD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D830B3681BBB2AB000D95AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D830B36A1BBB2AB000D95AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D830B36D1BBB2AB100D95AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D830B36F1BBB2AB100D95AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D830B3741BBB2AB100D95AD7 /* GradePaperMethodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradePaperMethodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830B3781BBB2AB100D95AD7 /* GradePaperMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradePaperMethodTests.m; sourceTree = "<group>"; };
+		D830B37A1BBB2AB100D95AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D830B37F1BBB2AB100D95AD7 /* GradePaperMethodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GradePaperMethodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830B3831BBB2AB100D95AD7 /* GradePaperMethodUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradePaperMethodUITests.m; sourceTree = "<group>"; };
+		D830B3851BBB2AB100D95AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D830B3581BBB2AB000D95AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B3711BBB2AB100D95AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B37C1BBB2AB100D95AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D830B3521BBB2AB000D95AD7 = {
+			isa = PBXGroup;
+			children = (
+				D830B35D1BBB2AB000D95AD7 /* GradePaperMethod */,
+				D830B3771BBB2AB100D95AD7 /* GradePaperMethodTests */,
+				D830B3821BBB2AB100D95AD7 /* GradePaperMethodUITests */,
+				D830B35C1BBB2AB000D95AD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D830B35C1BBB2AB000D95AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D830B35B1BBB2AB000D95AD7 /* GradePaperMethod.app */,
+				D830B3741BBB2AB100D95AD7 /* GradePaperMethodTests.xctest */,
+				D830B37F1BBB2AB100D95AD7 /* GradePaperMethodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D830B35D1BBB2AB000D95AD7 /* GradePaperMethod */ = {
+			isa = PBXGroup;
+			children = (
+				D830B3611BBB2AB000D95AD7 /* AppDelegate.h */,
+				D830B3621BBB2AB000D95AD7 /* AppDelegate.m */,
+				D830B3641BBB2AB000D95AD7 /* ViewController.h */,
+				D830B3651BBB2AB000D95AD7 /* ViewController.m */,
+				D830B3671BBB2AB000D95AD7 /* Main.storyboard */,
+				D830B36A1BBB2AB000D95AD7 /* Assets.xcassets */,
+				D830B36C1BBB2AB100D95AD7 /* LaunchScreen.storyboard */,
+				D830B36F1BBB2AB100D95AD7 /* Info.plist */,
+				D830B35E1BBB2AB000D95AD7 /* Supporting Files */,
+			);
+			path = GradePaperMethod;
+			sourceTree = "<group>";
+		};
+		D830B35E1BBB2AB000D95AD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D830B35F1BBB2AB000D95AD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D830B3771BBB2AB100D95AD7 /* GradePaperMethodTests */ = {
+			isa = PBXGroup;
+			children = (
+				D830B3781BBB2AB100D95AD7 /* GradePaperMethodTests.m */,
+				D830B37A1BBB2AB100D95AD7 /* Info.plist */,
+			);
+			path = GradePaperMethodTests;
+			sourceTree = "<group>";
+		};
+		D830B3821BBB2AB100D95AD7 /* GradePaperMethodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D830B3831BBB2AB100D95AD7 /* GradePaperMethodUITests.m */,
+				D830B3851BBB2AB100D95AD7 /* Info.plist */,
+			);
+			path = GradePaperMethodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D830B35A1BBB2AB000D95AD7 /* GradePaperMethod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830B3881BBB2AB100D95AD7 /* Build configuration list for PBXNativeTarget "GradePaperMethod" */;
+			buildPhases = (
+				D830B3571BBB2AB000D95AD7 /* Sources */,
+				D830B3581BBB2AB000D95AD7 /* Frameworks */,
+				D830B3591BBB2AB000D95AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GradePaperMethod;
+			productName = GradePaperMethod;
+			productReference = D830B35B1BBB2AB000D95AD7 /* GradePaperMethod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D830B3731BBB2AB100D95AD7 /* GradePaperMethodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830B38B1BBB2AB100D95AD7 /* Build configuration list for PBXNativeTarget "GradePaperMethodTests" */;
+			buildPhases = (
+				D830B3701BBB2AB100D95AD7 /* Sources */,
+				D830B3711BBB2AB100D95AD7 /* Frameworks */,
+				D830B3721BBB2AB100D95AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D830B3761BBB2AB100D95AD7 /* PBXTargetDependency */,
+			);
+			name = GradePaperMethodTests;
+			productName = GradePaperMethodTests;
+			productReference = D830B3741BBB2AB100D95AD7 /* GradePaperMethodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D830B37E1BBB2AB100D95AD7 /* GradePaperMethodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830B38E1BBB2AB100D95AD7 /* Build configuration list for PBXNativeTarget "GradePaperMethodUITests" */;
+			buildPhases = (
+				D830B37B1BBB2AB100D95AD7 /* Sources */,
+				D830B37C1BBB2AB100D95AD7 /* Frameworks */,
+				D830B37D1BBB2AB100D95AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D830B3811BBB2AB100D95AD7 /* PBXTargetDependency */,
+			);
+			name = GradePaperMethodUITests;
+			productName = GradePaperMethodUITests;
+			productReference = D830B37F1BBB2AB100D95AD7 /* GradePaperMethodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D830B3531BBB2AB000D95AD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bit Lore Institute";
+				TargetAttributes = {
+					D830B35A1BBB2AB000D95AD7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = H8T743Z4MU;
+					};
+					D830B3731BBB2AB100D95AD7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D830B35A1BBB2AB000D95AD7;
+					};
+					D830B37E1BBB2AB100D95AD7 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D830B35A1BBB2AB000D95AD7;
+					};
+				};
+			};
+			buildConfigurationList = D830B3561BBB2AB000D95AD7 /* Build configuration list for PBXProject "GradePaperMethod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D830B3521BBB2AB000D95AD7;
+			productRefGroup = D830B35C1BBB2AB000D95AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D830B35A1BBB2AB000D95AD7 /* GradePaperMethod */,
+				D830B3731BBB2AB100D95AD7 /* GradePaperMethodTests */,
+				D830B37E1BBB2AB100D95AD7 /* GradePaperMethodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D830B3591BBB2AB000D95AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830B36E1BBB2AB100D95AD7 /* LaunchScreen.storyboard in Resources */,
+				D830B36B1BBB2AB000D95AD7 /* Assets.xcassets in Resources */,
+				D830B3691BBB2AB000D95AD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B3721BBB2AB100D95AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B37D1BBB2AB100D95AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D830B3571BBB2AB000D95AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830B3661BBB2AB000D95AD7 /* ViewController.m in Sources */,
+				D830B3631BBB2AB000D95AD7 /* AppDelegate.m in Sources */,
+				D830B3601BBB2AB000D95AD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B3701BBB2AB100D95AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830B3791BBB2AB100D95AD7 /* GradePaperMethodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B37B1BBB2AB100D95AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830B3841BBB2AB100D95AD7 /* GradePaperMethodUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D830B3761BBB2AB100D95AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D830B35A1BBB2AB000D95AD7 /* GradePaperMethod */;
+			targetProxy = D830B3751BBB2AB100D95AD7 /* PBXContainerItemProxy */;
+		};
+		D830B3811BBB2AB100D95AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D830B35A1BBB2AB000D95AD7 /* GradePaperMethod */;
+			targetProxy = D830B3801BBB2AB100D95AD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D830B3671BBB2AB000D95AD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D830B3681BBB2AB000D95AD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D830B36C1BBB2AB100D95AD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D830B36D1BBB2AB100D95AD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D830B3861BBB2AB100D95AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D830B3871BBB2AB100D95AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D830B3891BBB2AB100D95AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GradePaperMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GradePaperMethod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D830B38A1BBB2AB100D95AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GradePaperMethod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GradePaperMethod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D830B38C1BBB2AB100D95AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradePaperMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GradePaperMethodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradePaperMethod.app/GradePaperMethod";
+			};
+			name = Debug;
+		};
+		D830B38D1BBB2AB100D95AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GradePaperMethodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GradePaperMethodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GradePaperMethod.app/GradePaperMethod";
+			};
+			name = Release;
+		};
+		D830B38F1BBB2AB100D95AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GradePaperMethodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GradePaperMethodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GradePaperMethod;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D830B3901BBB2AB100D95AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GradePaperMethodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GradePaperMethodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GradePaperMethod;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D830B3561BBB2AB000D95AD7 /* Build configuration list for PBXProject "GradePaperMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830B3861BBB2AB100D95AD7 /* Debug */,
+				D830B3871BBB2AB100D95AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D830B3881BBB2AB100D95AD7 /* Build configuration list for PBXNativeTarget "GradePaperMethod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830B3891BBB2AB100D95AD7 /* Debug */,
+				D830B38A1BBB2AB100D95AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D830B38B1BBB2AB100D95AD7 /* Build configuration list for PBXNativeTarget "GradePaperMethodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830B38C1BBB2AB100D95AD7 /* Debug */,
+				D830B38D1BBB2AB100D95AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D830B38E1BBB2AB100D95AD7 /* Build configuration list for PBXNativeTarget "GradePaperMethodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830B38F1BBB2AB100D95AD7 /* Debug */,
+				D830B3901BBB2AB100D95AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D830B3531BBB2AB000D95AD7 /* Project object */;
+}

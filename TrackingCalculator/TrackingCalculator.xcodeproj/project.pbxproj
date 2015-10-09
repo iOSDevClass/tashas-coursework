@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D88262391BC3377A0064F6D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D88262381BC3377A0064F6D3 /* main.m */; };
+		D882623C1BC3377A0064F6D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D882623B1BC3377A0064F6D3 /* AppDelegate.m */; };
+		D882623F1BC3377A0064F6D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D882623E1BC3377A0064F6D3 /* ViewController.m */; };
+		D88262421BC3377A0064F6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88262401BC3377A0064F6D3 /* Main.storyboard */; };
+		D88262441BC3377A0064F6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88262431BC3377A0064F6D3 /* Assets.xcassets */; };
+		D88262471BC3377A0064F6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88262451BC3377A0064F6D3 /* LaunchScreen.storyboard */; };
+		D88262521BC3377A0064F6D3 /* TrackingCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D88262511BC3377A0064F6D3 /* TrackingCalculatorTests.m */; };
+		D882625D1BC3377A0064F6D3 /* TrackingCalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D882625C1BC3377A0064F6D3 /* TrackingCalculatorUITests.m */; };
+		D882626C1BC337850064F6D3 /* Tracker.m in Sources */ = {isa = PBXBuildFile; fileRef = D882626B1BC337850064F6D3 /* Tracker.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D882624E1BC3377A0064F6D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D882622C1BC3377A0064F6D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88262331BC3377A0064F6D3;
+			remoteInfo = TrackingCalculator;
+		};
+		D88262591BC3377A0064F6D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D882622C1BC3377A0064F6D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D88262331BC3377A0064F6D3;
+			remoteInfo = TrackingCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D88262341BC3377A0064F6D3 /* TrackingCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackingCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88262381BC3377A0064F6D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D882623A1BC3377A0064F6D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D882623B1BC3377A0064F6D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D882623D1BC3377A0064F6D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D882623E1BC3377A0064F6D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D88262411BC3377A0064F6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D88262431BC3377A0064F6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D88262461BC3377A0064F6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D88262481BC3377A0064F6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D882624D1BC3377A0064F6D3 /* TrackingCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88262511BC3377A0064F6D3 /* TrackingCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingCalculatorTests.m; sourceTree = "<group>"; };
+		D88262531BC3377A0064F6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88262581BC3377A0064F6D3 /* TrackingCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackingCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D882625C1BC3377A0064F6D3 /* TrackingCalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrackingCalculatorUITests.m; sourceTree = "<group>"; };
+		D882625E1BC3377A0064F6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D882626A1BC337850064F6D3 /* Tracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tracker.h; path = ../Tracker.h; sourceTree = "<group>"; };
+		D882626B1BC337850064F6D3 /* Tracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tracker.m; path = ../Tracker.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D88262311BC3377A0064F6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D882624A1BC3377A0064F6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88262551BC3377A0064F6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D882622B1BC3377A0064F6D3 = {
+			isa = PBXGroup;
+			children = (
+				D88262361BC3377A0064F6D3 /* TrackingCalculator */,
+				D88262501BC3377A0064F6D3 /* TrackingCalculatorTests */,
+				D882625B1BC3377A0064F6D3 /* TrackingCalculatorUITests */,
+				D88262351BC3377A0064F6D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D88262351BC3377A0064F6D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D88262341BC3377A0064F6D3 /* TrackingCalculator.app */,
+				D882624D1BC3377A0064F6D3 /* TrackingCalculatorTests.xctest */,
+				D88262581BC3377A0064F6D3 /* TrackingCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D88262361BC3377A0064F6D3 /* TrackingCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				D882623A1BC3377A0064F6D3 /* AppDelegate.h */,
+				D882623B1BC3377A0064F6D3 /* AppDelegate.m */,
+				D882623D1BC3377A0064F6D3 /* ViewController.h */,
+				D882623E1BC3377A0064F6D3 /* ViewController.m */,
+				D882626A1BC337850064F6D3 /* Tracker.h */,
+				D882626B1BC337850064F6D3 /* Tracker.m */,
+				D88262401BC3377A0064F6D3 /* Main.storyboard */,
+				D88262431BC3377A0064F6D3 /* Assets.xcassets */,
+				D88262451BC3377A0064F6D3 /* LaunchScreen.storyboard */,
+				D88262481BC3377A0064F6D3 /* Info.plist */,
+				D88262371BC3377A0064F6D3 /* Supporting Files */,
+			);
+			path = TrackingCalculator;
+			sourceTree = "<group>";
+		};
+		D88262371BC3377A0064F6D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88262381BC3377A0064F6D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D88262501BC3377A0064F6D3 /* TrackingCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				D88262511BC3377A0064F6D3 /* TrackingCalculatorTests.m */,
+				D88262531BC3377A0064F6D3 /* Info.plist */,
+			);
+			path = TrackingCalculatorTests;
+			sourceTree = "<group>";
+		};
+		D882625B1BC3377A0064F6D3 /* TrackingCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D882625C1BC3377A0064F6D3 /* TrackingCalculatorUITests.m */,
+				D882625E1BC3377A0064F6D3 /* Info.plist */,
+			);
+			path = TrackingCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D88262331BC3377A0064F6D3 /* TrackingCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88262611BC3377A0064F6D3 /* Build configuration list for PBXNativeTarget "TrackingCalculator" */;
+			buildPhases = (
+				D88262301BC3377A0064F6D3 /* Sources */,
+				D88262311BC3377A0064F6D3 /* Frameworks */,
+				D88262321BC3377A0064F6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrackingCalculator;
+			productName = TrackingCalculator;
+			productReference = D88262341BC3377A0064F6D3 /* TrackingCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D882624C1BC3377A0064F6D3 /* TrackingCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88262641BC3377A0064F6D3 /* Build configuration list for PBXNativeTarget "TrackingCalculatorTests" */;
+			buildPhases = (
+				D88262491BC3377A0064F6D3 /* Sources */,
+				D882624A1BC3377A0064F6D3 /* Frameworks */,
+				D882624B1BC3377A0064F6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D882624F1BC3377A0064F6D3 /* PBXTargetDependency */,
+			);
+			name = TrackingCalculatorTests;
+			productName = TrackingCalculatorTests;
+			productReference = D882624D1BC3377A0064F6D3 /* TrackingCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D88262571BC3377A0064F6D3 /* TrackingCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D88262671BC3377A0064F6D3 /* Build configuration list for PBXNativeTarget "TrackingCalculatorUITests" */;
+			buildPhases = (
+				D88262541BC3377A0064F6D3 /* Sources */,
+				D88262551BC3377A0064F6D3 /* Frameworks */,
+				D88262561BC3377A0064F6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D882625A1BC3377A0064F6D3 /* PBXTargetDependency */,
+			);
+			name = TrackingCalculatorUITests;
+			productName = TrackingCalculatorUITests;
+			productReference = D88262581BC3377A0064F6D3 /* TrackingCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D882622C1BC3377A0064F6D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bit Lore Institute";
+				TargetAttributes = {
+					D88262331BC3377A0064F6D3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+					};
+					D882624C1BC3377A0064F6D3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D88262331BC3377A0064F6D3;
+					};
+					D88262571BC3377A0064F6D3 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D88262331BC3377A0064F6D3;
+					};
+				};
+			};
+			buildConfigurationList = D882622F1BC3377A0064F6D3 /* Build configuration list for PBXProject "TrackingCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D882622B1BC3377A0064F6D3;
+			productRefGroup = D88262351BC3377A0064F6D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D88262331BC3377A0064F6D3 /* TrackingCalculator */,
+				D882624C1BC3377A0064F6D3 /* TrackingCalculatorTests */,
+				D88262571BC3377A0064F6D3 /* TrackingCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D88262321BC3377A0064F6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88262471BC3377A0064F6D3 /* LaunchScreen.storyboard in Resources */,
+				D88262441BC3377A0064F6D3 /* Assets.xcassets in Resources */,
+				D88262421BC3377A0064F6D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D882624B1BC3377A0064F6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88262561BC3377A0064F6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D88262301BC3377A0064F6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882626C1BC337850064F6D3 /* Tracker.m in Sources */,
+				D882623F1BC3377A0064F6D3 /* ViewController.m in Sources */,
+				D882623C1BC3377A0064F6D3 /* AppDelegate.m in Sources */,
+				D88262391BC3377A0064F6D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88262491BC3377A0064F6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88262521BC3377A0064F6D3 /* TrackingCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D88262541BC3377A0064F6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D882625D1BC3377A0064F6D3 /* TrackingCalculatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D882624F1BC3377A0064F6D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88262331BC3377A0064F6D3 /* TrackingCalculator */;
+			targetProxy = D882624E1BC3377A0064F6D3 /* PBXContainerItemProxy */;
+		};
+		D882625A1BC3377A0064F6D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D88262331BC3377A0064F6D3 /* TrackingCalculator */;
+			targetProxy = D88262591BC3377A0064F6D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D88262401BC3377A0064F6D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88262411BC3377A0064F6D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D88262451BC3377A0064F6D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D88262461BC3377A0064F6D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D882625F1BC3377A0064F6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D88262601BC3377A0064F6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D88262621BC3377A0064F6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackingCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.TrackingCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D88262631BC3377A0064F6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TrackingCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.TrackingCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D88262651BC3377A0064F6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrackingCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.TrackingCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackingCalculator.app/TrackingCalculator";
+			};
+			name = Debug;
+		};
+		D88262661BC3377A0064F6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrackingCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.TrackingCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackingCalculator.app/TrackingCalculator";
+			};
+			name = Release;
+		};
+		D88262681BC3377A0064F6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrackingCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.TrackingCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrackingCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D88262691BC3377A0064F6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrackingCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.TrackingCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TrackingCalculator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D882622F1BC3377A0064F6D3 /* Build configuration list for PBXProject "TrackingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D882625F1BC3377A0064F6D3 /* Debug */,
+				D88262601BC3377A0064F6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D88262611BC3377A0064F6D3 /* Build configuration list for PBXNativeTarget "TrackingCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88262621BC3377A0064F6D3 /* Debug */,
+				D88262631BC3377A0064F6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D88262641BC3377A0064F6D3 /* Build configuration list for PBXNativeTarget "TrackingCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88262651BC3377A0064F6D3 /* Debug */,
+				D88262661BC3377A0064F6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D88262671BC3377A0064F6D3 /* Build configuration list for PBXNativeTarget "TrackingCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D88262681BC3377A0064F6D3 /* Debug */,
+				D88262691BC3377A0064F6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D882622C1BC3377A0064F6D3 /* Project object */;
+}

@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D89A48CF1BBF2CB10017DED0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D89A48CE1BBF2CB10017DED0 /* main.m */; };
+		D89A48D21BBF2CB10017DED0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D89A48D11BBF2CB10017DED0 /* AppDelegate.m */; };
+		D89A48D51BBF2CB10017DED0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D89A48D41BBF2CB10017DED0 /* ViewController.m */; };
+		D89A48D81BBF2CB10017DED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89A48D61BBF2CB10017DED0 /* Main.storyboard */; };
+		D89A48DA1BBF2CB10017DED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89A48D91BBF2CB10017DED0 /* Assets.xcassets */; };
+		D89A48DD1BBF2CB10017DED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D89A48DB1BBF2CB10017DED0 /* LaunchScreen.storyboard */; };
+		D89A48E81BBF2CB10017DED0 /* LeapYearCollabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89A48E71BBF2CB10017DED0 /* LeapYearCollabTests.m */; };
+		D89A48F31BBF2CB10017DED0 /* LeapYearCollabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D89A48F21BBF2CB10017DED0 /* LeapYearCollabUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D89A48E41BBF2CB10017DED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D89A48C21BBF2CB10017DED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89A48C91BBF2CB10017DED0;
+			remoteInfo = LeapYearCollab;
+		};
+		D89A48EF1BBF2CB10017DED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D89A48C21BBF2CB10017DED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D89A48C91BBF2CB10017DED0;
+			remoteInfo = LeapYearCollab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D89A48CA1BBF2CB10017DED0 /* LeapYearCollab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeapYearCollab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89A48CE1BBF2CB10017DED0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D89A48D01BBF2CB10017DED0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D89A48D11BBF2CB10017DED0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D89A48D31BBF2CB10017DED0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D89A48D41BBF2CB10017DED0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D89A48D71BBF2CB10017DED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D89A48D91BBF2CB10017DED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D89A48DC1BBF2CB10017DED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D89A48DE1BBF2CB10017DED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89A48E31BBF2CB10017DED0 /* LeapYearCollabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapYearCollabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89A48E71BBF2CB10017DED0 /* LeapYearCollabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeapYearCollabTests.m; sourceTree = "<group>"; };
+		D89A48E91BBF2CB10017DED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D89A48EE1BBF2CB10017DED0 /* LeapYearCollabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeapYearCollabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D89A48F21BBF2CB10017DED0 /* LeapYearCollabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeapYearCollabUITests.m; sourceTree = "<group>"; };
+		D89A48F41BBF2CB10017DED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D89A48C71BBF2CB10017DED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89A48E01BBF2CB10017DED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89A48EB1BBF2CB10017DED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D89A48C11BBF2CB10017DED0 = {
+			isa = PBXGroup;
+			children = (
+				D89A48CC1BBF2CB10017DED0 /* LeapYearCollab */,
+				D89A48E61BBF2CB10017DED0 /* LeapYearCollabTests */,
+				D89A48F11BBF2CB10017DED0 /* LeapYearCollabUITests */,
+				D89A48CB1BBF2CB10017DED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D89A48CB1BBF2CB10017DED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D89A48CA1BBF2CB10017DED0 /* LeapYearCollab.app */,
+				D89A48E31BBF2CB10017DED0 /* LeapYearCollabTests.xctest */,
+				D89A48EE1BBF2CB10017DED0 /* LeapYearCollabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89A48CC1BBF2CB10017DED0 /* LeapYearCollab */ = {
+			isa = PBXGroup;
+			children = (
+				D89A48D01BBF2CB10017DED0 /* AppDelegate.h */,
+				D89A48D11BBF2CB10017DED0 /* AppDelegate.m */,
+				D89A48D31BBF2CB10017DED0 /* ViewController.h */,
+				D89A48D41BBF2CB10017DED0 /* ViewController.m */,
+				D89A48D61BBF2CB10017DED0 /* Main.storyboard */,
+				D89A48D91BBF2CB10017DED0 /* Assets.xcassets */,
+				D89A48DB1BBF2CB10017DED0 /* LaunchScreen.storyboard */,
+				D89A48DE1BBF2CB10017DED0 /* Info.plist */,
+				D89A48CD1BBF2CB10017DED0 /* Supporting Files */,
+			);
+			path = LeapYearCollab;
+			sourceTree = "<group>";
+		};
+		D89A48CD1BBF2CB10017DED0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D89A48CE1BBF2CB10017DED0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D89A48E61BBF2CB10017DED0 /* LeapYearCollabTests */ = {
+			isa = PBXGroup;
+			children = (
+				D89A48E71BBF2CB10017DED0 /* LeapYearCollabTests.m */,
+				D89A48E91BBF2CB10017DED0 /* Info.plist */,
+			);
+			path = LeapYearCollabTests;
+			sourceTree = "<group>";
+		};
+		D89A48F11BBF2CB10017DED0 /* LeapYearCollabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D89A48F21BBF2CB10017DED0 /* LeapYearCollabUITests.m */,
+				D89A48F41BBF2CB10017DED0 /* Info.plist */,
+			);
+			path = LeapYearCollabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D89A48C91BBF2CB10017DED0 /* LeapYearCollab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89A48F71BBF2CB10017DED0 /* Build configuration list for PBXNativeTarget "LeapYearCollab" */;
+			buildPhases = (
+				D89A48C61BBF2CB10017DED0 /* Sources */,
+				D89A48C71BBF2CB10017DED0 /* Frameworks */,
+				D89A48C81BBF2CB10017DED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeapYearCollab;
+			productName = LeapYearCollab;
+			productReference = D89A48CA1BBF2CB10017DED0 /* LeapYearCollab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D89A48E21BBF2CB10017DED0 /* LeapYearCollabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89A48FA1BBF2CB10017DED0 /* Build configuration list for PBXNativeTarget "LeapYearCollabTests" */;
+			buildPhases = (
+				D89A48DF1BBF2CB10017DED0 /* Sources */,
+				D89A48E01BBF2CB10017DED0 /* Frameworks */,
+				D89A48E11BBF2CB10017DED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89A48E51BBF2CB10017DED0 /* PBXTargetDependency */,
+			);
+			name = LeapYearCollabTests;
+			productName = LeapYearCollabTests;
+			productReference = D89A48E31BBF2CB10017DED0 /* LeapYearCollabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D89A48ED1BBF2CB10017DED0 /* LeapYearCollabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D89A48FD1BBF2CB10017DED0 /* Build configuration list for PBXNativeTarget "LeapYearCollabUITests" */;
+			buildPhases = (
+				D89A48EA1BBF2CB10017DED0 /* Sources */,
+				D89A48EB1BBF2CB10017DED0 /* Frameworks */,
+				D89A48EC1BBF2CB10017DED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D89A48F01BBF2CB10017DED0 /* PBXTargetDependency */,
+			);
+			name = LeapYearCollabUITests;
+			productName = LeapYearCollabUITests;
+			productReference = D89A48EE1BBF2CB10017DED0 /* LeapYearCollabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D89A48C21BBF2CB10017DED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bit Lore Institute";
+				TargetAttributes = {
+					D89A48C91BBF2CB10017DED0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+					};
+					D89A48E21BBF2CB10017DED0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D89A48C91BBF2CB10017DED0;
+					};
+					D89A48ED1BBF2CB10017DED0 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = H8T743Z4MU;
+						TestTargetID = D89A48C91BBF2CB10017DED0;
+					};
+				};
+			};
+			buildConfigurationList = D89A48C51BBF2CB10017DED0 /* Build configuration list for PBXProject "LeapYearCollab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D89A48C11BBF2CB10017DED0;
+			productRefGroup = D89A48CB1BBF2CB10017DED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D89A48C91BBF2CB10017DED0 /* LeapYearCollab */,
+				D89A48E21BBF2CB10017DED0 /* LeapYearCollabTests */,
+				D89A48ED1BBF2CB10017DED0 /* LeapYearCollabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D89A48C81BBF2CB10017DED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89A48DD1BBF2CB10017DED0 /* LaunchScreen.storyboard in Resources */,
+				D89A48DA1BBF2CB10017DED0 /* Assets.xcassets in Resources */,
+				D89A48D81BBF2CB10017DED0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89A48E11BBF2CB10017DED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89A48EC1BBF2CB10017DED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D89A48C61BBF2CB10017DED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89A48D51BBF2CB10017DED0 /* ViewController.m in Sources */,
+				D89A48D21BBF2CB10017DED0 /* AppDelegate.m in Sources */,
+				D89A48CF1BBF2CB10017DED0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89A48DF1BBF2CB10017DED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89A48E81BBF2CB10017DED0 /* LeapYearCollabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89A48EA1BBF2CB10017DED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89A48F31BBF2CB10017DED0 /* LeapYearCollabUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D89A48E51BBF2CB10017DED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89A48C91BBF2CB10017DED0 /* LeapYearCollab */;
+			targetProxy = D89A48E41BBF2CB10017DED0 /* PBXContainerItemProxy */;
+		};
+		D89A48F01BBF2CB10017DED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D89A48C91BBF2CB10017DED0 /* LeapYearCollab */;
+			targetProxy = D89A48EF1BBF2CB10017DED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D89A48D61BBF2CB10017DED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89A48D71BBF2CB10017DED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D89A48DB1BBF2CB10017DED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D89A48DC1BBF2CB10017DED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D89A48F51BBF2CB10017DED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D89A48F61BBF2CB10017DED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D89A48F81BBF2CB10017DED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeapYearCollab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.LeapYearCollab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D89A48F91BBF2CB10017DED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeapYearCollab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.LeapYearCollab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D89A48FB1BBF2CB10017DED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeapYearCollabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.LeapYearCollabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeapYearCollab.app/LeapYearCollab";
+			};
+			name = Debug;
+		};
+		D89A48FC1BBF2CB10017DED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LeapYearCollabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.LeapYearCollabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeapYearCollab.app/LeapYearCollab";
+			};
+			name = Release;
+		};
+		D89A48FE1BBF2CB10017DED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeapYearCollabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.LeapYearCollabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeapYearCollab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D89A48FF1BBF2CB10017DED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LeapYearCollabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.LeapYearCollabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LeapYearCollab;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D89A48C51BBF2CB10017DED0 /* Build configuration list for PBXProject "LeapYearCollab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89A48F51BBF2CB10017DED0 /* Debug */,
+				D89A48F61BBF2CB10017DED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D89A48F71BBF2CB10017DED0 /* Build configuration list for PBXNativeTarget "LeapYearCollab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89A48F81BBF2CB10017DED0 /* Debug */,
+				D89A48F91BBF2CB10017DED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D89A48FA1BBF2CB10017DED0 /* Build configuration list for PBXNativeTarget "LeapYearCollabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89A48FB1BBF2CB10017DED0 /* Debug */,
+				D89A48FC1BBF2CB10017DED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D89A48FD1BBF2CB10017DED0 /* Build configuration list for PBXNativeTarget "LeapYearCollabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D89A48FE1BBF2CB10017DED0 /* Debug */,
+				D89A48FF1BBF2CB10017DED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D89A48C21BBF2CB10017DED0 /* Project object */;
+}

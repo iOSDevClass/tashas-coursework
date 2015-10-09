@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D830B2E21BBAD4BD00D95AD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B2E11BBAD4BD00D95AD7 /* main.m */; };
+		D830B2E51BBAD4BD00D95AD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B2E41BBAD4BD00D95AD7 /* AppDelegate.m */; };
+		D830B2E81BBAD4BD00D95AD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B2E71BBAD4BD00D95AD7 /* ViewController.m */; };
+		D830B2EB1BBAD4BD00D95AD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D830B2E91BBAD4BD00D95AD7 /* Main.storyboard */; };
+		D830B2ED1BBAD4BD00D95AD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D830B2EC1BBAD4BD00D95AD7 /* Assets.xcassets */; };
+		D830B2F01BBAD4BD00D95AD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D830B2EE1BBAD4BD00D95AD7 /* LaunchScreen.storyboard */; };
+		D830B2FB1BBAD4BD00D95AD7 /* GroundhogDayOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B2FA1BBAD4BD00D95AD7 /* GroundhogDayOneTests.m */; };
+		D830B3061BBAD4BD00D95AD7 /* GroundhogDayOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D830B3051BBAD4BD00D95AD7 /* GroundhogDayOneUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D830B2F71BBAD4BD00D95AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D830B2D51BBAD4BD00D95AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D830B2DC1BBAD4BD00D95AD7;
+			remoteInfo = GroundhogDayOne;
+		};
+		D830B3021BBAD4BD00D95AD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D830B2D51BBAD4BD00D95AD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D830B2DC1BBAD4BD00D95AD7;
+			remoteInfo = GroundhogDayOne;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D830B2DD1BBAD4BD00D95AD7 /* GroundhogDayOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroundhogDayOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830B2E11BBAD4BD00D95AD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D830B2E31BBAD4BD00D95AD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D830B2E41BBAD4BD00D95AD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D830B2E61BBAD4BD00D95AD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D830B2E71BBAD4BD00D95AD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D830B2EA1BBAD4BD00D95AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D830B2EC1BBAD4BD00D95AD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D830B2EF1BBAD4BD00D95AD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D830B2F11BBAD4BD00D95AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D830B2F61BBAD4BD00D95AD7 /* GroundhogDayOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroundhogDayOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830B2FA1BBAD4BD00D95AD7 /* GroundhogDayOneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroundhogDayOneTests.m; sourceTree = "<group>"; };
+		D830B2FC1BBAD4BD00D95AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D830B3011BBAD4BD00D95AD7 /* GroundhogDayOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroundhogDayOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D830B3051BBAD4BD00D95AD7 /* GroundhogDayOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroundhogDayOneUITests.m; sourceTree = "<group>"; };
+		D830B3071BBAD4BD00D95AD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D830B2DA1BBAD4BD00D95AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B2F31BBAD4BD00D95AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B2FE1BBAD4BD00D95AD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D830B2D41BBAD4BD00D95AD7 = {
+			isa = PBXGroup;
+			children = (
+				D830B2DF1BBAD4BD00D95AD7 /* GroundhogDayOne */,
+				D830B2F91BBAD4BD00D95AD7 /* GroundhogDayOneTests */,
+				D830B3041BBAD4BD00D95AD7 /* GroundhogDayOneUITests */,
+				D830B2DE1BBAD4BD00D95AD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D830B2DE1BBAD4BD00D95AD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D830B2DD1BBAD4BD00D95AD7 /* GroundhogDayOne.app */,
+				D830B2F61BBAD4BD00D95AD7 /* GroundhogDayOneTests.xctest */,
+				D830B3011BBAD4BD00D95AD7 /* GroundhogDayOneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D830B2DF1BBAD4BD00D95AD7 /* GroundhogDayOne */ = {
+			isa = PBXGroup;
+			children = (
+				D830B2E31BBAD4BD00D95AD7 /* AppDelegate.h */,
+				D830B2E41BBAD4BD00D95AD7 /* AppDelegate.m */,
+				D830B2E61BBAD4BD00D95AD7 /* ViewController.h */,
+				D830B2E71BBAD4BD00D95AD7 /* ViewController.m */,
+				D830B2E91BBAD4BD00D95AD7 /* Main.storyboard */,
+				D830B2EC1BBAD4BD00D95AD7 /* Assets.xcassets */,
+				D830B2EE1BBAD4BD00D95AD7 /* LaunchScreen.storyboard */,
+				D830B2F11BBAD4BD00D95AD7 /* Info.plist */,
+				D830B2E01BBAD4BD00D95AD7 /* Supporting Files */,
+			);
+			path = GroundhogDayOne;
+			sourceTree = "<group>";
+		};
+		D830B2E01BBAD4BD00D95AD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D830B2E11BBAD4BD00D95AD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D830B2F91BBAD4BD00D95AD7 /* GroundhogDayOneTests */ = {
+			isa = PBXGroup;
+			children = (
+				D830B2FA1BBAD4BD00D95AD7 /* GroundhogDayOneTests.m */,
+				D830B2FC1BBAD4BD00D95AD7 /* Info.plist */,
+			);
+			path = GroundhogDayOneTests;
+			sourceTree = "<group>";
+		};
+		D830B3041BBAD4BD00D95AD7 /* GroundhogDayOneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D830B3051BBAD4BD00D95AD7 /* GroundhogDayOneUITests.m */,
+				D830B3071BBAD4BD00D95AD7 /* Info.plist */,
+			);
+			path = GroundhogDayOneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D830B2DC1BBAD4BD00D95AD7 /* GroundhogDayOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830B30A1BBAD4BD00D95AD7 /* Build configuration list for PBXNativeTarget "GroundhogDayOne" */;
+			buildPhases = (
+				D830B2D91BBAD4BD00D95AD7 /* Sources */,
+				D830B2DA1BBAD4BD00D95AD7 /* Frameworks */,
+				D830B2DB1BBAD4BD00D95AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroundhogDayOne;
+			productName = GroundhogDayOne;
+			productReference = D830B2DD1BBAD4BD00D95AD7 /* GroundhogDayOne.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D830B2F51BBAD4BD00D95AD7 /* GroundhogDayOneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830B30D1BBAD4BD00D95AD7 /* Build configuration list for PBXNativeTarget "GroundhogDayOneTests" */;
+			buildPhases = (
+				D830B2F21BBAD4BD00D95AD7 /* Sources */,
+				D830B2F31BBAD4BD00D95AD7 /* Frameworks */,
+				D830B2F41BBAD4BD00D95AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D830B2F81BBAD4BD00D95AD7 /* PBXTargetDependency */,
+			);
+			name = GroundhogDayOneTests;
+			productName = GroundhogDayOneTests;
+			productReference = D830B2F61BBAD4BD00D95AD7 /* GroundhogDayOneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D830B3001BBAD4BD00D95AD7 /* GroundhogDayOneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D830B3101BBAD4BD00D95AD7 /* Build configuration list for PBXNativeTarget "GroundhogDayOneUITests" */;
+			buildPhases = (
+				D830B2FD1BBAD4BD00D95AD7 /* Sources */,
+				D830B2FE1BBAD4BD00D95AD7 /* Frameworks */,
+				D830B2FF1BBAD4BD00D95AD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D830B3031BBAD4BD00D95AD7 /* PBXTargetDependency */,
+			);
+			name = GroundhogDayOneUITests;
+			productName = GroundhogDayOneUITests;
+			productReference = D830B3011BBAD4BD00D95AD7 /* GroundhogDayOneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D830B2D51BBAD4BD00D95AD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Bit Lore Institute";
+				TargetAttributes = {
+					D830B2DC1BBAD4BD00D95AD7 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D830B2F51BBAD4BD00D95AD7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D830B2DC1BBAD4BD00D95AD7;
+					};
+					D830B3001BBAD4BD00D95AD7 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D830B2DC1BBAD4BD00D95AD7;
+					};
+				};
+			};
+			buildConfigurationList = D830B2D81BBAD4BD00D95AD7 /* Build configuration list for PBXProject "GroundhogDayOne" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D830B2D41BBAD4BD00D95AD7;
+			productRefGroup = D830B2DE1BBAD4BD00D95AD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D830B2DC1BBAD4BD00D95AD7 /* GroundhogDayOne */,
+				D830B2F51BBAD4BD00D95AD7 /* GroundhogDayOneTests */,
+				D830B3001BBAD4BD00D95AD7 /* GroundhogDayOneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D830B2DB1BBAD4BD00D95AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830B2F01BBAD4BD00D95AD7 /* LaunchScreen.storyboard in Resources */,
+				D830B2ED1BBAD4BD00D95AD7 /* Assets.xcassets in Resources */,
+				D830B2EB1BBAD4BD00D95AD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B2F41BBAD4BD00D95AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B2FF1BBAD4BD00D95AD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D830B2D91BBAD4BD00D95AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830B2E81BBAD4BD00D95AD7 /* ViewController.m in Sources */,
+				D830B2E51BBAD4BD00D95AD7 /* AppDelegate.m in Sources */,
+				D830B2E21BBAD4BD00D95AD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B2F21BBAD4BD00D95AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830B2FB1BBAD4BD00D95AD7 /* GroundhogDayOneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D830B2FD1BBAD4BD00D95AD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D830B3061BBAD4BD00D95AD7 /* GroundhogDayOneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D830B2F81BBAD4BD00D95AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D830B2DC1BBAD4BD00D95AD7 /* GroundhogDayOne */;
+			targetProxy = D830B2F71BBAD4BD00D95AD7 /* PBXContainerItemProxy */;
+		};
+		D830B3031BBAD4BD00D95AD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D830B2DC1BBAD4BD00D95AD7 /* GroundhogDayOne */;
+			targetProxy = D830B3021BBAD4BD00D95AD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D830B2E91BBAD4BD00D95AD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D830B2EA1BBAD4BD00D95AD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D830B2EE1BBAD4BD00D95AD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D830B2EF1BBAD4BD00D95AD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D830B3081BBAD4BD00D95AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D830B3091BBAD4BD00D95AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D830B30B1BBAD4BD00D95AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroundhogDayOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GroundhogDayOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D830B30C1BBAD4BD00D95AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroundhogDayOne/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GroundhogDayOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D830B30E1BBAD4BD00D95AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroundhogDayOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GroundhogDayOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroundhogDayOne.app/GroundhogDayOne";
+			};
+			name = Debug;
+		};
+		D830B30F1BBAD4BD00D95AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GroundhogDayOneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GroundhogDayOneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroundhogDayOne.app/GroundhogDayOne";
+			};
+			name = Release;
+		};
+		D830B3111BBAD4BD00D95AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GroundhogDayOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GroundhogDayOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GroundhogDayOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D830B3121BBAD4BD00D95AD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GroundhogDayOneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitlore.GroundhogDayOneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GroundhogDayOne;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D830B2D81BBAD4BD00D95AD7 /* Build configuration list for PBXProject "GroundhogDayOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830B3081BBAD4BD00D95AD7 /* Debug */,
+				D830B3091BBAD4BD00D95AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D830B30A1BBAD4BD00D95AD7 /* Build configuration list for PBXNativeTarget "GroundhogDayOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830B30B1BBAD4BD00D95AD7 /* Debug */,
+				D830B30C1BBAD4BD00D95AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D830B30D1BBAD4BD00D95AD7 /* Build configuration list for PBXNativeTarget "GroundhogDayOneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830B30E1BBAD4BD00D95AD7 /* Debug */,
+				D830B30F1BBAD4BD00D95AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D830B3101BBAD4BD00D95AD7 /* Build configuration list for PBXNativeTarget "GroundhogDayOneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D830B3111BBAD4BD00D95AD7 /* Debug */,
+				D830B3121BBAD4BD00D95AD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D830B2D51BBAD4BD00D95AD7 /* Project object */;
+}

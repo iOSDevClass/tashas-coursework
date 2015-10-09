@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="felt" translatesAutoresizingMaskIntoConstraints="NO" id="p9R-JH-exz">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qde-8Q-2wn">
+                                <rect key="frame" x="113" y="117" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d6"/>
+                                <connections>
+                                    <action selector="buttonD6:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jor-3h-2bM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gqm-pM-3YV">
+                                <rect key="frame" x="51" y="188" width="60" height="60"/>
+                                <state key="normal" image="d8"/>
+                                <connections>
+                                    <action selector="buttonD8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vIj-ny-A9O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E1l-i5-ypf">
+                                <rect key="frame" x="205" y="183" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d12"/>
+                                <connections>
+                                    <action selector="buttonD12:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yFG-di-M8t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iY6-Az-rfN">
+                                <rect key="frame" x="221" y="62" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d20"/>
+                                <connections>
+                                    <action selector="buttonD20:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mxa-8D-FUu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bMi-Co-0Sj">
+                                <rect key="frame" x="60" y="44" width="60" height="60"/>
+                                <state key="normal" backgroundImage="d10"/>
+                                <connections>
+                                    <action selector="buttonD10:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mqu-ik-vJa"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXH-X1-5Hb">
+                                <rect key="frame" x="110" y="326" width="101" height="102"/>
+                                <color key="backgroundColor" red="1" green="0.26135708348437325" blue="0.033350794201933653" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="buttonD10" destination="bMi-Co-0Sj" id="7op-Rf-ejT"/>
+                        <outlet property="labelRandomNumber" destination="mXH-X1-5Hb" id="mis-xL-zyZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="472" y="624"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="d10" width="300" height="300"/>
+        <image name="d12" width="300" height="300"/>
+        <image name="d20" width="300" height="300"/>
+        <image name="d6" width="300" height="300"/>
+        <image name="d8" width="300" height="300"/>
+        <image name="felt" width="4400" height="2600"/>
+    </resources>
+</document>
