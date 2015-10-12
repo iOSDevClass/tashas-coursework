@@ -210,6 +210,7 @@
     }
 }
 
+
 -(BOOL)isUserInputValidForPower
 {
     if (self.textHeroPower.text.length > 6) {
